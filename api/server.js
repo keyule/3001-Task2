@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 const pg = require('pg');
 
 const app = express();
@@ -12,6 +13,7 @@ const pool = new pg.Pool({
 });
 
 app.use(bodyParser.json());
+app.use(cors());
 
 app.get('/todos', (req, res) => {
   pool.query('SELECT * FROM todos', (error, results) => {
