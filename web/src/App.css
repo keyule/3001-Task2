@@ -1,0 +1,86 @@
+.app {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.app__title {
+  text-align: center;
+}
+
+.app__form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.app__form-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.app__form-input:focus {
+  outline: none;
+}
+
+.app__form-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.app__form-button:hover {
+  background-color: #0069d9;
+}
+
+.app__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.app__list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.app__list-label {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.app__list-checkbox {
+  margin-right: 10px;
+}
+
+.app__list-text {
+  font-size: 16px;
+}
+
+.app__list-delete {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.app__list-delete:hover {
+  background-color: #c82333;
+}
