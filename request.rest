@@ -17,3 +17,7 @@ Content-Type: application/json
 {
     "completed": true
 }
+
+###
+
+DELETE http://localhost:3000/todos/1
