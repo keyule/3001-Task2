@@ -1,3 +1,5 @@
+[![Build Status](https://app.travis-ci.com/keyule/3001-Task2.svg?branch=main)](https://app.travis-ci.com/keyule/3001-Task2)
+
 # Task 2: Web Application
 
 Implement a simple backend, testing through CI, and a frontend SPA.  
